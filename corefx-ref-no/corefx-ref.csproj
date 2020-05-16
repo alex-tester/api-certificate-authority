@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>corefx_ref</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="src\System.Runtime.InteropServices.RuntimeInformation\ref\System.Runtime.InteropServices.RuntimeInformation.csproj" />
+    <None Include="src\System.Runtime.InteropServices.RuntimeInformation\src\System.Runtime.InteropServices.RuntimeInformation.csproj" />
+    <None Include="src\System.Runtime.InteropServices.RuntimeInformation\System.Runtime.InteropServices.RuntimeInformation.sln" />
+    <None Include="src\System.Runtime.InteropServices.RuntimeInformation\tests\System.Runtime.InteropServices.RuntimeInformation.Tests.csproj" />
+    <None Include="src\System.Runtime.InteropServices.WindowsRuntime\ref\System.Runtime.InteropServices.WindowsRuntime.csproj" />
+    <None Include="src\System.Runtime.InteropServices.WindowsRuntime\src\System.Runtime.InteropServices.WindowsRuntime.csproj" />
+    <None Include="src\System.Runtime.InteropServices.WindowsRuntime\System.Runtime.InteropServices.WindowsRuntime.sln" />
+    <None Include="src\System.Runtime.InteropServices.WindowsRuntime\tests\System.Runtime.InteropServices.WindowsRuntime.Tests.csproj" />
+    <None Include="src\System.Runtime.InteropServices\ref\System.Runtime.InteropServices.csproj" />
+    <None Include="src\System.Runtime.InteropServices\src\System.Runtime.InteropServices.csproj" />
+    <None Include="src\System.Runtime.InteropServices\System.Runtime.InteropServices.sln" />
+    <None Include="src\System.Runtime.InteropServices\tests\System.Runtime.InteropServices.Tests.csproj" />
+    <None Include="src\System.Security.Cryptography.Algorithms\ref\System.Security.Cryptography.Algorithms.csproj" />
+    <None Include="src\System.Security.Cryptography.Algorithms\src\System.Security.Cryptography.Algorithms.csproj" />
+    <None Include="src\System.Security.Cryptography.Algorithms\System.Security.Cryptography.Algorithms.sln" />
+    <None Include="src\System.Security.Cryptography.Algorithms\tests\System.Security.Cryptography.Algorithms.Tests.csproj" />
+    <None Include="src\System.Security.Cryptography.Cng\pkg\System.Security.Cryptography.Cng.pkgproj" />
+    <None Include="src\System.Security.Cryptography.Cng\ref\System.Security.Cryptography.Cng.csproj" />
+    <None Include="src\System.Security.Cryptography.Cng\src\System.Security.Cryptography.Cng.csproj" />
+    <None Include="src\System.Security.Cryptography.Cng\System.Security.Cryptography.Cng.sln" />
+    <None Include="src\System.Security.Cryptography.Cng\tests\System.Security.Cryptography.Cng.Tests.csproj" />
+    <None Include="src\System.Security.Cryptography.Csp\ref\System.Security.Cryptography.Csp.csproj" />
+    <None Include="src\System.Security.Cryptography.Csp\src\System.Security.Cryptography.Csp.csproj" />
+    <None Include="src\System.Security.Cryptography.Csp\System.Security.Cryptography.Csp.sln" />
+    <None Include="src\System.Security.Cryptography.Csp\tests\System.Security.Cryptography.Csp.Tests.csproj" />
+    <None Include="src\System.Security.Cryptography.Encoding\.vs\System.Security.Cryptography.Encoding\DesignTimeBuild\.dtbcache" />
+    <None Include="src\System.Security.Cryptography.Encoding\.vs\System.Security.Cryptography.Encoding\v16\Server\sqlite3\db.lock" />
+    <None Include="src\System.Security.Cryptography.Encoding\.vs\System.Security.Cryptography.Encoding\v16\Server\sqlite3\storage.ide" />
+    <None Include="src\System.Security.Cryptography.Encoding\ref\System.Security.Cryptography.Encoding.csproj" />
+    <None Include="src\System.Security.Cryptography.Encoding\src\System.Security.Cryptography.Encoding.csproj" />
+    <None Include="src\System.Security.Cryptography.Encoding\System.Security.Cryptography.Encoding.sln" />
+    <None Include="src\System.Security.Cryptography.Encoding\tests\System.Security.Cryptography.Encoding.Tests.csproj" />
+    <None Include="src\System.Security.Cryptography.OpenSsl\pkg\System.Security.Cryptography.OpenSsl.pkgproj" />
+    <None Include="src\System.Security.Cryptography.OpenSsl\ref\System.Security.Cryptography.OpenSsl.csproj" />
+    <None Include="src\System.Security.Cryptography.OpenSsl\src\System.Security.Cryptography.OpenSsl.csproj" />
+    <None Include="src\System.Security.Cryptography.OpenSsl\System.Security.Cryptography.OpenSsl.sln" />
+    <None Include="src\System.Security.Cryptography.OpenSsl\tests\System.Security.Cryptography.OpenSsl.Tests.csproj" />
+    <None Include="src\System.Security.Cryptography.Pkcs\pkg\System.Security.Cryptography.Pkcs.pkgproj" />
+    <None Include="src\System.Security.Cryptography.Pkcs\ref\System.Security.Cryptography.Pkcs.csproj" />
+    <None Include="src\System.Security.Cryptography.Pkcs\src\System.Security.Cryptography.Pkcs.csproj" />
+    <None Include="src\System.Security.Cryptography.Pkcs\System.Security.Cryptography.Pkcs.sln" />
+    <None Include="src\System.Security.Cryptography.Pkcs\tests\System.Security.Cryptography.Pkcs.Tests.csproj" />
+    <None Include="src\System.Security.Cryptography.Primitives\ref\System.Security.Cryptography.Primitives.csproj" />
+    <None Include="src\System.Security.Cryptography.Primitives\src\System.Security.Cryptography.Primitives.csproj" />
+    <None Include="src\System.Security.Cryptography.Primitives\System.Security.Cryptography.Primitives.sln" />
+    <None Include="src\System.Security.Cryptography.Primitives\tests\System.Security.Cryptography.Primitives.Tests.csproj" />
+    <None Include="src\System.Security.Cryptography.ProtectedData\pkg\System.Security.Cryptography.ProtectedData.pkgproj" />
+    <None Include="src\System.Security.Cryptography.ProtectedData\ref\System.Security.Cryptography.ProtectedData.csproj" />
+    <None Include="src\System.Security.Cryptography.ProtectedData\src\System.Security.Cryptography.ProtectedData.csproj" />
+    <None Include="src\System.Security.Cryptography.ProtectedData\System.Security.Cryptography.ProtectedData.sln" />
+    <None Include="src\System.Security.Cryptography.ProtectedData\tests\System.Security.Cryptography.ProtectedData.Tests.csproj" />
+    <None Include="src\System.Security.Cryptography.X509Certificates\ref\System.Security.Cryptography.X509Certificates.csproj" />
+    <None Include="src\System.Security.Cryptography.X509Certificates\src\System.Security.Cryptography.X509Certificates.csproj" />
+    <None Include="src\System.Security.Cryptography.X509Certificates\System.Security.Cryptography.X509Certificates.sln" />
+    <None Include="src\System.Security.Cryptography.X509Certificates\tests\System.Security.Cryptography.X509Certificates.Tests.csproj" />
+    <None Include="src\System.Security.Cryptography.Xml\pkg\System.Security.Cryptography.Xml.pkgproj" />
+    <None Include="src\System.Security.Cryptography.Xml\ref\System.Security.Cryptography.Xml.csproj" />
+    <None Include="src\System.Security.Cryptography.Xml\src\System.Security.Cryptography.Xml.csproj" />
+    <None Include="src\System.Security.Cryptography.Xml\System.Security.Cryptography.Xml.sln" />
+    <None Include="src\System.Security.Cryptography.Xml\tests\System.Security.Cryptography.Xml.Tests.csproj" />
+  </ItemGroup>
+
+</Project>
